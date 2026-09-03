@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# ROS 2 / colcon
+build/
+install/
+log/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Temp
+*.swp
+*~
