@@ -52,25 +52,6 @@ The UR5 arm and Robotiq gripper mesh used by the project has the following appea
 
 ---
 
-## Project Structure
-
-```
-Armbot_UR5/
-├── armbot_ur5/
-│   ├── pick_and_place.py        # Main orchestration — scan, pick, place loop
-│   ├── detect_objects.py        # HSV color detection with OpenCV
-│   ├── pixel_to_world.py        # Pixel-to-world coordinate transformation
-│   └── box_pose_bridge.py       # Gazebo pose bridge for box tracking
-├── launch/
-│   └── pick_and_place.launch.py # Launch file for pick-and-place node
-├── config/
-│   └── ur5_gripper_controllers.yaml  # UR5 controller configuration
-├── urdf/
-│   └── ur5_with_gripper.urdf.xacro   # UR5 + Robotiq gripper description
-├── worlds/
-│   └── pick_world.sdf           # Gazebo world with table, boxes, and bins
-└── setup.py
-```
 
 ---
 
